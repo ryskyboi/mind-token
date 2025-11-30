@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hypermind"
+version = "0.1.0"
+description = ""
+authors = ["rysky-boi <dave@rysk.finance>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.3.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
